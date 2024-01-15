@@ -83,60 +83,62 @@ class ContentAboutMe extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      // height: height * 0.4,
-      width: width * 0.3,
-      decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(10),
-        image: const DecorationImage(image: AssetImage("assets/me.png")),
-        border: Border.all(
-          color: AppColor.primaryColor,
-          width: 2,
+    return LayoutBuilder(
+      builder: (context, constraints) => Container(
+        // height: height * 0.4,
+        width: constraints.maxWidth >= 600.0 ? width * 0.3 : null,
+        decoration: BoxDecoration(
+          borderRadius: BorderRadius.circular(10),
+          image: const DecorationImage(image: AssetImage("assets/me.png")),
+          border: Border.all(
+            color: AppColor.primaryColor,
+            width: 2,
+          ),
         ),
-      ),
-      child: ClipRRect(
-        borderRadius: BorderRadius.circular(10),
-        child: BackdropFilter(
-          filter: ImageFilter.blur(sigmaX: 50.0, sigmaY: 50.0),
-          child: Container(
-            padding: EdgeInsets.all(designPadding24),
-            decoration: BoxDecoration(
-              color: Colors.white.withOpacity(0.6),
-            ),
-            child: Column(
-              children: [
-                Text(
-                  title,
-                  style: Theme.of(context).textTheme.headlineLarge!.copyWith(
-                        color: AppColor.secondaryColor,
-                        fontWeight: FontWeight.bold,
-                      ),
-                ),
-                const SizedBox(
-                  height: 20,
-                ),
-                if (showEducation)
-                  const ListTile(
-                    contentPadding: EdgeInsets.zero,
-                    minVerticalPadding: 0,
-                    title: AutoSizeText(
-                      "Computer Science",
-                      maxLines: 1,
-                    ),
-                    subtitle: AutoSizeText(
-                      "New Cairo Academy\nGPA: 3.0/4.0",
-                      maxLines: 2,
-                    ),
-                    trailing: AutoSizeText(
-                      "October 2017 - 2021\nEnglish",
-                      maxLines: 2,
-                    ),
+        child: ClipRRect(
+          borderRadius: BorderRadius.circular(10),
+          child: BackdropFilter(
+            filter: ImageFilter.blur(sigmaX: 50.0, sigmaY: 50.0),
+            child: Container(
+              padding: EdgeInsets.all(designPadding24),
+              decoration: BoxDecoration(
+                color: Colors.white.withOpacity(0.6),
+              ),
+              child: Column(
+                children: [
+                  Text(
+                    title,
+                    style: Theme.of(context).textTheme.headlineLarge!.copyWith(
+                          color: AppColor.secondaryColor,
+                          fontWeight: FontWeight.bold,
+                        ),
                   ),
-                AutoSizeText(
-                  description,
-                  maxLines: 12,
-                ),
-              ],
+                  const SizedBox(
+                    height: 20,
+                  ),
+                  if (showEducation)
+                    const ListTile(
+                      contentPadding: EdgeInsets.zero,
+                      minVerticalPadding: 0,
+                      title: AutoSizeText(
+                        "Computer Science",
+                        maxLines: 1,
+                      ),
+                      subtitle: AutoSizeText(
+                        "New Cairo Academy\nGPA: 3.0/4.0",
+                        maxLines: 2,
+                      ),
+                      trailing: AutoSizeText(
+                        "October 2017 - 2021\nEnglish",
+                        maxLines: 2,
+                      ),
+                    ),
+                  AutoSizeText(
+                    description,
+                    maxLines: 12,
+                  ),
+                ],
+              ),
             ),
           ),
         ),

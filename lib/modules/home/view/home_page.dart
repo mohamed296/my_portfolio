@@ -28,6 +28,7 @@ class _HomePageState extends State<HomePage> {
     'ABOUT ME',
     'EXPERIENCE',
     'PROJECTS',
+    'Download Cv'
   ];
 
   final List<Widget> pages = [
@@ -85,7 +86,7 @@ class _HomePageState extends State<HomePage> {
                       onSelected: (value) {
                         if (value == 4) {
                           downloadFile(
-                            'assets/Mohamed-Abdelkhalek.pdf',
+                            'assets/Mohamed-Abdelkhalek-cv.pdf',
                           );
                         } else {
                           scrollToItem(value);
@@ -115,28 +116,31 @@ class _HomePageState extends State<HomePage> {
                 ]
               : [
                   ...navItem.asMap().entries.map(
-                        (e) => Padding(
-                          padding: const EdgeInsets.only(right: 20, bottom: 10),
-                          child: TextButton(
-                            onPressed: () {
-                              scrollToItem(e.key);
-                            },
-                            child: Text(
-                              e.value,
-                              style: TextStyle(
-                                  color: currentIndex == e.key
-                                      ? AppColor.primaryColor
-                                      : AppColor.secondaryColor,
-                                  fontSize: 18,
-                                  fontWeight: FontWeight.bold),
-                            ),
-                          ),
-                        ),
+                        (e) => e.value == 'Download Cv'
+                            ? const SizedBox.shrink()
+                            : Padding(
+                                padding: const EdgeInsets.only(
+                                    right: 20, bottom: 10),
+                                child: TextButton(
+                                  onPressed: () {
+                                    scrollToItem(e.key);
+                                  },
+                                  child: Text(
+                                    e.value,
+                                    style: TextStyle(
+                                        color: currentIndex == e.key
+                                            ? AppColor.primaryColor
+                                            : AppColor.secondaryColor,
+                                        fontSize: 18,
+                                        fontWeight: FontWeight.bold),
+                                  ),
+                                ),
+                              ),
                       ),
                   GestureDetector(
                     onTap: () {
                       downloadFile(
-                        'assets/Mohamed-Abdelkhalek.pdf',
+                        'assets/Mohamed-Abdelkhalek-cv.pdf',
                       );
                     },
                     child: Container(

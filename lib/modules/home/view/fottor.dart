@@ -1,3 +1,4 @@
+import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
 import 'package:my_portfolio/core/theme/app_colors.dart';
 import 'package:my_portfolio/core/theme/size.dart';
@@ -13,7 +14,7 @@ class Footer extends StatelessWidget {
   Widget build(BuildContext context) {
     return LayoutBuilder(
       builder: (context, constraints) => Container(
-        padding: EdgeInsets.all(designPadding),
+        padding: EdgeInsets.only(bottom: designPadding, top: designPadding),
         child: constraints.maxWidth >= 600.0
             ? Row(
                 mainAxisSize: MainAxisSize.min,
@@ -46,56 +47,42 @@ class Footer extends StatelessWidget {
                 mainAxisSize: MainAxisSize.min,
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Row(
+                  Column(
+                    mainAxisSize: MainAxisSize.min,
+                    crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Expanded(
-                        child: Column(
-                          mainAxisSize: MainAxisSize.min,
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            const Text(
-                              'Call',
-                            ),
-                            SizedBox(
-                              height: designPaddingCenter,
-                            ),
-                            const SelectableText(
-                              '+201024573438\n',
-                            ),
-                          ],
-                        ),
+                      const Text(
+                        'Call',
                       ),
-                      Expanded(
-                        child: Column(
-                          mainAxisSize: MainAxisSize.min,
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                         
-                            const Text(
-                              'Write',
-                            ),
-                            SizedBox(
-                              height: designPaddingCenter,
-                            ),
-                            const SelectableText(
-                              'mohamed.abdelkhalek931@gmail.com',
-                            ),
-                          ],
-                        ),
+                      SizedBox(
+                        height: designPaddingCenter,
+                      ),
+                      const SelectableText(
+                        '+201024573438\n',
+                      ),
+                    ],
+                  ),
+                  Column(
+                    mainAxisSize: MainAxisSize.min,
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      const Text(
+                        'Write',
+                      ),
+                      SizedBox(
+                        height: designPaddingCenter,
+                      ),
+                      const SelectableText(
+                        'mohamed.abdelkhalek931@gmail.com',
                       ),
                     ],
                   ),
                   SizedBox(
-                    height: designPaddingCenter,
-                  ),
-                  const Text(
-                    'Follow',
-                  ),
-                  SizedBox(
                     height: designPadding,
                   ),
-                  const Text(
+                  const AutoSizeText(
                     '© 2023 Mohamed Abdelkhalek All Rights Reserved',
+                    maxLines: 1,
                   ),
                 ],
               ),

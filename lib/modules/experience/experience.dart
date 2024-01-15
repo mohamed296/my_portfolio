@@ -91,59 +91,61 @@ class ContentExperience extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      width: width * 0.3,
-      constraints: BoxConstraints(minHeight: height * 0.3),
-      padding: EdgeInsets.all(designPadding12),
-      decoration: BoxDecoration(
-        color: Colors.grey.withOpacity(0.1),
-        borderRadius: BorderRadius.circular(6),
-        border: Border.all(
-          width: 2,
-          color: Colors.grey.withOpacity(0.2),
+    return LayoutBuilder(
+      builder: (context, constraints) => Container(
+        width: constraints.maxWidth >= 600.0 ? width * 0.3 : null,
+        constraints: BoxConstraints(minHeight: height * 0.3),
+        padding: EdgeInsets.all(designPadding12),
+        decoration: BoxDecoration(
+          color: Colors.grey.withOpacity(0.1),
+          borderRadius: BorderRadius.circular(6),
+          border: Border.all(
+            width: 2,
+            color: Colors.grey.withOpacity(0.2),
+          ),
         ),
-      ),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Row(
-            children: [
-              Icon(
-                Icons.keyboard_double_arrow_right_outlined,
-                color: AppColor.primaryColor,
-              ),
-              Expanded(
-                child: AutoSizeText(
-                  title,
-                  maxLines: 1,
-                  presetFontSizes: const [20, 18, 14],
-                  style: TextStyle(
-                      fontWeight: FontWeight.bold,
-                      color: AppColor.primaryColor),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Row(
+              children: [
+                Icon(
+                  Icons.keyboard_double_arrow_right_outlined,
+                  color: AppColor.primaryColor,
+                ),
+                Expanded(
+                  child: AutoSizeText(
+                    title,
+                    maxLines: 1,
+                    presetFontSizes: const [20, 18, 14],
+                    style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        color: AppColor.primaryColor),
+                  ),
+                ),
+              ],
+            ),
+            const SizedBox(
+              height: 20,
+            ),
+            Text(work),
+            Text(time),
+            const SizedBox(
+              height: 10,
+            ),
+            SizedBox(
+              // height: MediaQuery.of(context).size.height * 0.2,
+              child: AutoSizeText(
+                des,
+                group: AutoSizeGroup(),
+                style: const TextStyle(
+                  fontSize: 12,
+                  color: Colors.grey,
                 ),
               ),
-            ],
-          ),
-          const SizedBox(
-            height: 20,
-          ),
-          Text(work),
-          Text(time),
-          const SizedBox(
-            height: 10,
-          ),
-          SizedBox(
-            // height: MediaQuery.of(context).size.height * 0.2,
-            child: AutoSizeText(
-              des,
-              group: AutoSizeGroup(),
-              style: const TextStyle(
-                fontSize: 12,
-                color: Colors.grey,
-              ),
             ),
-          ),
-        ],
+          ],
+        ),
       ),
     );
   }
