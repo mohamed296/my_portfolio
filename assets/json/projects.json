@@ -99,6 +99,24 @@
       {
      
         "images": [
+            "assets/hesdsHunt/0.png",
+            "assets/hesdsHunt/1.png",
+            "assets/hesdsHunt/2.png",
+            "assets/hesdsHunt/3.png",
+            "assets/hesdsHunt/4.png",
+            "assets/hesdsHunt/5.png",
+            "assets/hesdsHunt/6.png",
+            "assets/hesdsHunt/7.png"
+
+
+        ],
+        "color": "0xff183351",
+        "title": "HesdsHunt",
+        "des": "Headhunt: Streamlining events! Connect organizers with ْUshers for efficient planning. Ushers receive event details, ensuring precise execution. Simplifying communication, Headhunt empowers both sides for successful event management."
+            },
+      {
+     
+        "images": [
             "assets/draya/0.jpeg",
             "assets/draya/1.jpeg",
             "assets/draya/2.jpeg",
