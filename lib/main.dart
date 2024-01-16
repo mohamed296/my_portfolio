@@ -4,6 +4,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:my_portfolio/core/dependency_injection/get_it.dart';
 import 'package:my_portfolio/core/theme/theme.dart';
 import 'package:my_portfolio/firebase_options.dart';
+import 'package:my_portfolio/modules/experience/bloc/experience_bloc.dart';
 import 'package:my_portfolio/modules/home/view/home_page.dart';
 import 'package:my_portfolio/modules/projects/bloc/projects_bloc.dart';
 
@@ -23,8 +24,15 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return  BlocProvider(
-      create: (context) => gi<ProjectsBloc>()..add(GetProjectsEvent()),
+    return MultiBlocProvider(
+      providers: [
+        BlocProvider(
+          create: (context) => gi<ProjectsBloc>()..add(GetProjectsEvent()),
+        ),
+        BlocProvider(
+          create: (context) => gi<ExperienceBloc>()..add(GetExperienceEvent()),
+        ),
+      ],
       child: MaterialApp(
         title: 'Mohamed Abdelkhalek',
         debugShowCheckedModeBanner: false,

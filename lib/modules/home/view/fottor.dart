@@ -81,7 +81,7 @@ class Footer extends StatelessWidget {
                     height: designPadding,
                   ),
                   const AutoSizeText(
-                    '© 2023 Mohamed Abdelkhalek All Rights Reserved',
+                    '© 2024 Mohamed Abdelkhalek All Rights Reserved',
                     maxLines: 1,
                   ),
                 ],

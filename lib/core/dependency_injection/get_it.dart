@@ -1,5 +1,7 @@
 import 'package:get_it/get_it.dart';
 import 'package:my_portfolio/core/data_source/json_helper.dart';
+import 'package:my_portfolio/modules/experience/bloc/experience_bloc.dart';
+import 'package:my_portfolio/modules/experience/repository/experience_repository.dart';
 import 'package:my_portfolio/modules/projects/bloc/projects_bloc.dart';
 import 'package:my_portfolio/modules/projects/repository/projects_repository.dart';
 
@@ -14,7 +16,11 @@ Future<void> initGetIt() async {
 
     // blocs
     ..registerFactory(() => ProjectsBloc(gi()))
+    ..registerFactory(() => ExperienceBloc(gi()))
+
 
     // data ( local + remote) repositories Objects
-    ..registerLazySingleton(() => ProjectsRepository(jsonHelper: gi()));
+    ..registerLazySingleton(() => ProjectsRepository(jsonHelper: gi()))
+    ..registerLazySingleton(() => ExperienceRepository(jsonHelper: gi()));
+
 }

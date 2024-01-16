@@ -6,9 +6,9 @@ import 'package:my_portfolio/core/theme/app_colors.dart';
 import 'package:my_portfolio/core/theme/size.dart';
 import 'package:my_portfolio/modules/about_me/about_me.dart';
 import 'package:my_portfolio/modules/educations/educations.dart';
-import 'package:my_portfolio/modules/experience/experience.dart';
+import 'package:my_portfolio/modules/experience/view/experience.dart';
 import 'package:my_portfolio/modules/home/view/fottor.dart';
-import 'package:my_portfolio/modules/projects/projects.dart';
+import 'package:my_portfolio/modules/projects/view/projects.dart';
 import 'package:scrollable_positioned_list/scrollable_positioned_list.dart';
 
 class HomePage extends StatefulWidget {
