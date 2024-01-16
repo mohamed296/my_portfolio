@@ -170,6 +170,8 @@ class _HomePageState extends State<HomePage> {
                 ],
         ),
         body: ScrollablePositionedList.separated(
+          shrinkWrap: true,
+          minCacheExtent: double.maxFinite,
           padding: EdgeInsets.only(
               left: designPadding12,
               right: designPadding12,

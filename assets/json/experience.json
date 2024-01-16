@@ -1,0 +1,23 @@
+{
+    "experiences": [
+      {
+        "title": "InCode, Egypt",
+        "work": "Flutter Developer – Full-Time",
+        "time": "June 2022 – Present",
+        "des": "As a Lead Developer, I spearheaded mobile application development, emphasizing design patterns and agile methodologies. Collaborating with cross-functional teams, I facilitated successful API integrations and implemented CI/CD for efficient app delivery. Achieved a significant performance improvement, enhancing user satisfaction through strategic code optimizations. Notably, I spearheaded a pivotal project resulting in a substantial increase in app downloads. Additionally, I played an active role in mentoring junior developers, contributing to the development of a skilled and cohesive team."
+      },
+      {
+        "title": "AbuDiyab-IT-Services, Saudi Arabia",
+        "work": "Flutter Developer – Full-Time",
+        "time": "October 2021 - October 2022",
+        "des": "During my tenure at AbuDiyab-IT-Services Company, I played a pivotal role in developing a comprehensive application for car rentals in Saudi Arabia. Additionally, I took charge of creating a program to monitor car maintenance conditions, ensuring optimal vehicle performance and longevity. Furthermore, I designed and implemented a program to record employee attendance, contributing to streamlined workforce management."
+      },
+      {
+        "title": "Vicevio, India",
+        "work": "Flutter Developer – Remote",
+        "time": "June 2020 - September 2020",
+        "des": "During my tenure at Vicevio Co, I made significant contributions to the development and enhancement of the Vicevio program, specializing in social media. Through my work, I demonstrated a strong commitment to improving the program's functionality and performance. I played a key role in developing new tools, as well as modifying existing code to optimize the overall user experience."
+      }
+    ]
+  }
+  

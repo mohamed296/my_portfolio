@@ -20,7 +20,8 @@ class ProjectsPage extends StatelessWidget {
     return BlocBuilder<ProjectsBloc, ProjectsState>(
       builder: (context, state) {
         if (state.states == ProjectsStates.loading) {
-          return const CircularProgressIndicator();
+          return const SizedBox(
+              width: 40, height: 40, child: CircularProgressIndicator());
         }
         return SizedBox(
           child: Column(
@@ -59,18 +60,18 @@ class ProjectsPage extends StatelessWidget {
                 runSpacing: 20,
                 spacing: 20,
                 alignment: WrapAlignment.center,
-                children: [
-                  ...state.projectList.map(
-                    (e) => ProjectItem(
-                      images: e.images,
-                      color: int.parse(e.color.toString()),
-                      title: e.title,
-                      des: e.des,
-                      gLink: e.gLink,
-                      aLink: e.aLink,
-                    ),
-                  ),
-                ],
+                children: state.projectList
+                    .map(
+                      (e) => ProjectItem(
+                        images: e.images,
+                        color: int.parse(e.color.toString()),
+                        title: e.title,
+                        des: e.des,
+                        gLink: e.gLink,
+                        aLink: e.aLink,
+                      ),
+                    )
+                    .toList(),
               )
             ],
           ),
