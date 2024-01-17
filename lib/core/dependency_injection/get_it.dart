@@ -1,9 +1,8 @@
 import 'package:get_it/get_it.dart';
 import 'package:my_portfolio/core/data_source/json_helper.dart';
+import 'package:my_portfolio/core/repository/data_project_repository.dart';
 import 'package:my_portfolio/modules/experience/bloc/experience_bloc.dart';
-import 'package:my_portfolio/modules/experience/repository/experience_repository.dart';
 import 'package:my_portfolio/modules/projects/bloc/projects_bloc.dart';
-import 'package:my_portfolio/modules/projects/repository/projects_repository.dart';
 
 /// GetIt is a simple service locator for Dart and Flutter projects. [GetIt]
 final gi = GetIt.instance;
@@ -18,9 +17,6 @@ Future<void> initGetIt() async {
     ..registerFactory(() => ProjectsBloc(gi()))
     ..registerFactory(() => ExperienceBloc(gi()))
 
-
     // data ( local + remote) repositories Objects
-    ..registerLazySingleton(() => ProjectsRepository(jsonHelper: gi()))
-    ..registerLazySingleton(() => ExperienceRepository(jsonHelper: gi()));
-
+    ..registerLazySingleton(() => DataProjectRepository(jsonHelper: gi()));
 }

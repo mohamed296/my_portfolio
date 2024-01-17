@@ -1,0 +1,178 @@
+{
+  "data": {
+    "experiences": [
+      {
+        "title": "InCode, Egypt",
+        "work": "Flutter Developer – Full-Time",
+        "time": "June 2022 – Present",
+        "des": "As a Lead Developer, I spearheaded mobile application development, emphasizing design patterns and agile methodologies. Collaborating with cross-functional teams, I facilitated successful API integrations and implemented CI/CD for efficient app delivery. Achieved a significant performance improvement, enhancing user satisfaction through strategic code optimizations. Notably, I spearheaded a pivotal project resulting in a substantial increase in app downloads. Additionally, I played an active role in mentoring junior developers, contributing to the development of a skilled and cohesive team."
+      },
+      {
+        "title": "AbuDiyab-IT-Services, Saudi Arabia",
+        "work": "Flutter Developer – Full-Time",
+        "time": "October 2021 - October 2022",
+        "des": "During my tenure at AbuDiyab-IT-Services Company, I played a pivotal role in developing a comprehensive application for car rentals in Saudi Arabia. Additionally, I took charge of creating a program to monitor car maintenance conditions, ensuring optimal vehicle performance and longevity. Furthermore, I designed and implemented a program to record employee attendance, contributing to streamlined workforce management."
+      },
+      {
+        "title": "Vicevio, India",
+        "work": "Flutter Developer – Remote",
+        "time": "June 2020 - September 2020",
+        "des": "During my tenure at Vicevio Co, I made significant contributions to the development and enhancement of the Vicevio program, specializing in social media. Through my work, I demonstrated a strong commitment to improving the program's functionality and performance. I played a key role in developing new tools, as well as modifying existing code to optimize the overall user experience."
+      }
+    ],
+    "projects": [
+      {
+        "images": [
+          "https://firebasestorage.googleapis.com/v0/b/mohamed-abdelkhalek.appspot.com/o/projects%2Fbund%2F0.png?alt=media&token=f68a8688-1d85-40d7-b26e-a4aa596c659b",
+          "https://firebasestorage.googleapis.com/v0/b/mohamed-abdelkhalek.appspot.com/o/projects%2Fbund%2F1.png?alt=media&token=b21f4214-ccf8-4369-ba30-71dd53224735",
+          "https://firebasestorage.googleapis.com/v0/b/mohamed-abdelkhalek.appspot.com/o/projects%2Fbund%2F2.png?alt=media&token=dadde338-d4c5-4496-84f6-2ecbbca13de8",
+          "https://firebasestorage.googleapis.com/v0/b/mohamed-abdelkhalek.appspot.com/o/projects%2Fbund%2F3.png?alt=media&token=11393d76-607b-4509-b1bb-d42462979f60",
+          "https://firebasestorage.googleapis.com/v0/b/mohamed-abdelkhalek.appspot.com/o/projects%2Fbund%2F4.png?alt=media&token=20213d72-418e-4c5e-9390-fee5587118d6",
+          "https://firebasestorage.googleapis.com/v0/b/mohamed-abdelkhalek.appspot.com/o/projects%2Fbund%2F5.png?alt=media&token=b91a670b-82f4-4cce-aef5-e98bde4a33a2",
+          "https://firebasestorage.googleapis.com/v0/b/mohamed-abdelkhalek.appspot.com/o/projects%2Fbund%2F6.png?alt=media&token=6adf6773-6b8f-4712-87fb-e6eed8508254"
+        ],
+        "color": "0xff1C2C56",
+        "title": "Bünd",
+        "des": "Designed and developed a secure and user-friendly finance banking app using Flutter and Dart, Implemented features for account management, fund transfers, bill payments, and transaction history",
+        "gLink": "https://play.google.com/store/apps/details?id=com.bund.bund",
+        "aLink": "https://apps.apple.com/us/app/b%C3%BCnd/id6444239460"
+      },
+      {
+        "images": [
+          "https://firebasestorage.googleapis.com/v0/b/mohamed-abdelkhalek.appspot.com/o/projects%2Fabudiyab%2F0.webp?alt=media&token=08eae7e8-1a78-4cf0-9cbd-14b9687e6caa",
+          "https://firebasestorage.googleapis.com/v0/b/mohamed-abdelkhalek.appspot.com/o/projects%2Fabudiyab%2F1.webp?alt=media&token=42461529-f237-4e27-86e7-8f2411b34bd0",
+          "https://firebasestorage.googleapis.com/v0/b/mohamed-abdelkhalek.appspot.com/o/projects%2Fabudiyab%2F2.webp?alt=media&token=2635c686-24f5-4ec4-9563-21bedc299cf9",
+          "https://firebasestorage.googleapis.com/v0/b/mohamed-abdelkhalek.appspot.com/o/projects%2Fabudiyab%2F3.webp?alt=media&token=df7a7b78-3083-4c95-995c-eb4b7553f653",
+          "https://firebasestorage.googleapis.com/v0/b/mohamed-abdelkhalek.appspot.com/o/projects%2Fabudiyab%2F4.webp?alt=media&token=9b5bc5a7-15f4-4e30-a082-5c8536d8adfc",
+          "https://firebasestorage.googleapis.com/v0/b/mohamed-abdelkhalek.appspot.com/o/projects%2Fabudiyab%2F5.webp?alt=media&token=3f62a7ae-2bf8-4e48-aaa7-ab7d172f042c"
+        ],
+        "color": "0xff505ac9",
+        "title": "ABUDIYAB",
+        "des": "ABUDIYAB, a user-friendly car rental program in Saudi Arabia, simplifies the rental process. It ensures a seamless experience, making finding and renting the perfect vehicle easy for users. With a focus on convenience, ABUDIYAB streamlines the car rental journey for a hassle-free and efficient experience.",
+        "gLink": "https://play.google.com/store/apps/details?id=com.abudiyab.abudiyab",
+        "aLink": "https://apps.apple.com/us/app/%D8%A3%D8%A8%D9%88%D8%B0%D9%8A%D8%A7%D8%A8-%D9%84%D8%AA%D8%A3%D8%AC%D9%8A%D8%B1-%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B1%D8%A7%D8%AA/id1570665182"
+      },
+      {
+        "images": [
+          "https://firebasestorage.googleapis.com/v0/b/mohamed-abdelkhalek.appspot.com/o/projects%2F4go%2F0.webp?alt=media&token=a0a7bc5d-f8a8-4584-a838-67b97a719cb1",
+          "https://firebasestorage.googleapis.com/v0/b/mohamed-abdelkhalek.appspot.com/o/projects%2F4go%2F1.webp?alt=media&token=94bbed70-139b-4c7e-85ac-edfefe5fc8cb",
+          "https://firebasestorage.googleapis.com/v0/b/mohamed-abdelkhalek.appspot.com/o/projects%2F4go%2F2.webp?alt=media&token=7cd7cb1a-1de4-4f50-b3e3-0951c7cb7921",
+          "https://firebasestorage.googleapis.com/v0/b/mohamed-abdelkhalek.appspot.com/o/projects%2F4go%2F3.webp?alt=media&token=d1519a44-e3a3-4fcf-a4b6-3c20f42cd9b2",
+          "https://firebasestorage.googleapis.com/v0/b/mohamed-abdelkhalek.appspot.com/o/projects%2F4go%2F4.webp?alt=media&token=c7c1430f-79de-488e-b80f-30089e1f16a3"
+        ],
+        "color": "0xfff5b416",
+        "title": "4GO",
+        "des": "The 4GO app is an all-in-one solution for seamless vehicle rental, prioritizing user experience. It integrates online booking, vehicle tracking, insurance coverage, and electronic reporting, ensuring a comprehensive and safe rental experience with a strong focus on convenience.",
+        "gLink": "https://play.google.com/store/apps/details?id=com.ad_automation.ad_automation",
+        "aLink": "https://apps.apple.com/us/app/4-go/id6443469663"
+      },
+      {
+        "images": [
+          "https://firebasestorage.googleapis.com/v0/b/mohamed-abdelkhalek.appspot.com/o/projects%2FtsFinger%2F0.webp?alt=media&token=1fddbf68-c5ec-403b-8ff0-bed317af661a",
+          "https://firebasestorage.googleapis.com/v0/b/mohamed-abdelkhalek.appspot.com/o/projects%2FtsFinger%2F1.webp?alt=media&token=5f4f2cce-d961-4cc1-8667-2141ea1641f9",
+          "https://firebasestorage.googleapis.com/v0/b/mohamed-abdelkhalek.appspot.com/o/projects%2FtsFinger%2F2.webp?alt=media&token=274a70d7-2132-4336-b8eb-d872aef726f1",
+          "https://firebasestorage.googleapis.com/v0/b/mohamed-abdelkhalek.appspot.com/o/projects%2FtsFinger%2F3.webp?alt=media&token=7c365f58-0d7a-4b53-8b02-970d30109127",
+          "https://firebasestorage.googleapis.com/v0/b/mohamed-abdelkhalek.appspot.com/o/projects%2FtsFinger%2F4.webp?alt=media&token=4ace3bf8-b278-4b2e-8e72-8198e6059391"
+        ],
+        "color": "0xff258488",
+        "title": "Ts Finger",
+        "des": "Ts Finger, crafted for ABUDIYAB Company, revolutionizes attendance tracking using GPS. This app ensures precise and location-specific attendance records, streamlining the process. With efficient GPS-based tracking and insightful report generation, Ts Finger enhances workforce management.",
+        "gLink": "https://play.google.com/store/apps/details?id=com.tsfinger.fingerprint",
+        "aLink": "https://apps.apple.com/us/app/adtsfinger/id6443908125"
+      },
+      {
+        "images": [
+          "https://firebasestorage.googleapis.com/v0/b/mohamed-abdelkhalek.appspot.com/o/projects%2Fwe%2F0.jpeg?alt=media&token=d9a53a80-b359-44a8-a976-59fbd87be552",
+          "https://firebasestorage.googleapis.com/v0/b/mohamed-abdelkhalek.appspot.com/o/projects%2Fwe%2F1.jpeg?alt=media&token=bfa1b837-65a3-4180-b847-9f65e65a572e",
+          "https://firebasestorage.googleapis.com/v0/b/mohamed-abdelkhalek.appspot.com/o/projects%2Fwe%2F2.jpeg?alt=media&token=dda49d41-da68-4b8a-9137-4a6843498783",
+          "https://firebasestorage.googleapis.com/v0/b/mohamed-abdelkhalek.appspot.com/o/projects%2Fwe%2F3.jpeg?alt=media&token=ca9c2909-b3aa-4cea-8c85-895d9d562c4e",
+          "https://firebasestorage.googleapis.com/v0/b/mohamed-abdelkhalek.appspot.com/o/projects%2Fwe%2F4.jpeg?alt=media&token=a360d66c-d82c-47fa-be39-6287fd23e3fb",
+          "https://firebasestorage.googleapis.com/v0/b/mohamed-abdelkhalek.appspot.com/o/projects%2Fwe%2F5.jpeg?alt=media&token=d18a5e59-38c6-4078-8de2-cd5ddfaf469d"
+        ],
+        "color": "0xFFac6c44",
+        "title": "We Gomla",
+        "des": "We Gomla specializes in wholesale product sales, offering a dedicated platform for bulk procurement. Tailored for the wholesale market, it facilitates efficient transactions, streamlines inventory management, and meets diverse buyer needs.",
+        "gLink": "https://play.google.com/store/apps/details?id=com.wareix.we"
+      },
+      {
+        "images": [
+          "https://firebasestorage.googleapis.com/v0/b/mohamed-abdelkhalek.appspot.com/o/projects%2Fvita%2F0.jpeg?alt=media&token=5cbe2a8c-6585-4961-a336-c787694d2a5b",
+          "https://firebasestorage.googleapis.com/v0/b/mohamed-abdelkhalek.appspot.com/o/projects%2Fvita%2F1.jpeg?alt=media&token=5bcd29d8-c6df-40aa-8e36-fc722fefebbe",
+          "https://firebasestorage.googleapis.com/v0/b/mohamed-abdelkhalek.appspot.com/o/projects%2Fvita%2F2.jpeg?alt=media&token=6113dbce-2b50-44c3-b461-d6887a6139af",
+          "https://firebasestorage.googleapis.com/v0/b/mohamed-abdelkhalek.appspot.com/o/projects%2Fvita%2F3.jpeg?alt=media&token=fe961817-230c-4b96-a7ba-ee2f7e2fa320"
+        ],
+        "color": "0xFF621878",
+        "title": "Vita Prime",
+        "des": "Vita Prime App: A medical store that provides high-quality health products. Order medicines and medical supplies with ease, with comprehensive information.",
+        "gLink": "https://play.google.com/store/apps/details?id=com.vita.prime"
+      },
+      {
+        "images": [
+          "https://firebasestorage.googleapis.com/v0/b/mohamed-abdelkhalek.appspot.com/o/projects%2FhesdsHunt%2F0.png?alt=media&token=e5022def-fcad-4d2b-b46a-68a21f1061b0",
+          "https://firebasestorage.googleapis.com/v0/b/mohamed-abdelkhalek.appspot.com/o/projects%2FhesdsHunt%2F1.png?alt=media&token=0bf55433-7b4b-4395-97fc-b77d96956d05",
+          "https://firebasestorage.googleapis.com/v0/b/mohamed-abdelkhalek.appspot.com/o/projects%2FhesdsHunt%2F2.png?alt=media&token=a87474f9-7aae-4f20-831d-d68a8ce3b283",
+          "https://firebasestorage.googleapis.com/v0/b/mohamed-abdelkhalek.appspot.com/o/projects%2FhesdsHunt%2F3.png?alt=media&token=636724a8-50f5-4689-aa92-64cf16c5f6ef",
+          "https://firebasestorage.googleapis.com/v0/b/mohamed-abdelkhalek.appspot.com/o/projects%2FhesdsHunt%2F4.png?alt=media&token=fa037b0a-6c8d-4a93-8aad-3dd928e5eead",
+          "https://firebasestorage.googleapis.com/v0/b/mohamed-abdelkhalek.appspot.com/o/projects%2FhesdsHunt%2F6.png?alt=media&token=1dafd9e6-f634-4ec2-b91f-668b37a9914a",
+          "https://firebasestorage.googleapis.com/v0/b/mohamed-abdelkhalek.appspot.com/o/projects%2FhesdsHunt%2F7.png?alt=media&token=c61a7e60-945c-48bc-a15a-2293c6939e01"
+        ],
+        "color": "0xff183351",
+        "title": "HeadsHunt",
+        "des": "HeadsHunt: Streamlining events! Connect organizers with ْUshers for efficient planning. Ushers receive event details, ensuring precise execution. Simplifying communication, HeadsHunt empowers both sides for successful event management."
+      },
+      {
+        "images": [
+          "https://firebasestorage.googleapis.com/v0/b/mohamed-abdelkhalek.appspot.com/o/projects%2Fdraya%2F0.jpeg?alt=media&token=06b1f908-c5ce-45fb-ba39-d3e6f0d2da8e",
+          "https://firebasestorage.googleapis.com/v0/b/mohamed-abdelkhalek.appspot.com/o/projects%2Fdraya%2F1.jpeg?alt=media&token=c75c37f1-8bff-45bc-8eb2-50d10363d794",
+          "https://firebasestorage.googleapis.com/v0/b/mohamed-abdelkhalek.appspot.com/o/projects%2Fdraya%2F2.jpeg?alt=media&token=8b5ee8d3-7a24-4d84-8e3a-a2660a8e47e5",
+          "https://firebasestorage.googleapis.com/v0/b/mohamed-abdelkhalek.appspot.com/o/projects%2Fdraya%2F3.jpeg?alt=media&token=aa5497f2-1989-4288-a06e-9400dce67e18",
+          "https://firebasestorage.googleapis.com/v0/b/mohamed-abdelkhalek.appspot.com/o/projects%2Fdraya%2F4.jpeg?alt=media&token=fa37ccf1-52ad-4c4d-a19a-85808ee1f9a8",
+          "https://firebasestorage.googleapis.com/v0/b/mohamed-abdelkhalek.appspot.com/o/projects%2Fdraya%2F5.jpeg?alt=media&token=5c108fe0-a475-4c5e-bc8e-5581d7ce32fe"
+        ],
+        "color": "0xFF7BD545",
+        "title": "Deraya Sales",
+        "des": "Deraya Sales, designed for Deraya Company, optimizes sales with features like customer follow-up, file uploads, and sales department management. The program aims to enhance operations, improve communication, and provide an efficient centralized platform for sales."
+      },
+      {
+        "images": [
+          "https://firebasestorage.googleapis.com/v0/b/mohamed-abdelkhalek.appspot.com/o/projects%2Flemon%2F0.jpeg?alt=media&token=a0949e7e-29a1-4c79-8806-aa99a17a1e83",
+          "https://firebasestorage.googleapis.com/v0/b/mohamed-abdelkhalek.appspot.com/o/projects%2Flemon%2F1.jpeg?alt=media&token=b411938d-9281-4f7f-9e9a-024b60a0b7ad",
+          "https://firebasestorage.googleapis.com/v0/b/mohamed-abdelkhalek.appspot.com/o/projects%2Flemon%2F2.jpeg?alt=media&token=5f6d9ae4-ecd4-444c-8d39-d33c0e6a28e5",
+          "https://firebasestorage.googleapis.com/v0/b/mohamed-abdelkhalek.appspot.com/o/projects%2Flemon%2F3.jpeg?alt=media&token=6c2d7284-0e43-4e3f-94b5-a8bc8795ea72",
+          "https://firebasestorage.googleapis.com/v0/b/mohamed-abdelkhalek.appspot.com/o/projects%2Flemon%2F4.jpeg?alt=media&token=87e54be1-eb87-4b90-a630-7a2fb5fa1388",
+          "https://firebasestorage.googleapis.com/v0/b/mohamed-abdelkhalek.appspot.com/o/projects%2Flemon%2F5.jpeg?alt=media&token=b5378b39-14a7-4567-b8dc-e2e33e6a2d61"
+        ],
+        "color": "0xFFFFDE40",
+        "title": "Lemon Spaces",
+        "des": "Lemon Spaces, a home rental program, simplifies finding and renting residences. With a user-friendly interface, comprehensive listings, and efficient booking, it caters to those seeking short-term accommodations for a comfortable stay."
+      },
+      {
+        "images": [
+          "https://firebasestorage.googleapis.com/v0/b/mohamed-abdelkhalek.appspot.com/o/projects%2Ffazeker%2F0.jpeg?alt=media&token=ea74f920-933b-476d-bedf-e5249f3f3c8f",
+          "https://firebasestorage.googleapis.com/v0/b/mohamed-abdelkhalek.appspot.com/o/projects%2Ffazeker%2F1.jpeg?alt=media&token=4de42b8f-5fcc-4add-8417-846d1e4921e3",
+          "https://firebasestorage.googleapis.com/v0/b/mohamed-abdelkhalek.appspot.com/o/projects%2Ffazeker%2F2.jpeg?alt=media&token=42f79f88-4c5b-4d34-85ef-2f62b07514b5",
+          "https://firebasestorage.googleapis.com/v0/b/mohamed-abdelkhalek.appspot.com/o/projects%2Ffazeker%2F3.jpeg?alt=media&token=91111500-42b6-4e0f-a1eb-97f368f0948a",
+          "https://firebasestorage.googleapis.com/v0/b/mohamed-abdelkhalek.appspot.com/o/projects%2Ffazeker%2F4.jpeg?alt=media&token=2dbc7bb3-cfe7-48a8-b520-f9fc92f732f7",
+          "https://firebasestorage.googleapis.com/v0/b/mohamed-abdelkhalek.appspot.com/o/projects%2Ffazeker%2F5.jpeg?alt=media&token=0d6899d3-7b7d-4dec-ba68-a4cf90b4a98e",
+          "https://firebasestorage.googleapis.com/v0/b/mohamed-abdelkhalek.appspot.com/o/projects%2Ffazeker%2F6.jpeg?alt=media&token=912fa67c-bdd0-4216-bec4-e5cfda49c8b2",
+          "https://firebasestorage.googleapis.com/v0/b/mohamed-abdelkhalek.appspot.com/o/projects%2Ffazeker%2F7.jpeg?alt=media&token=9db55e5e-a1d0-4344-8a1d-91efb7277359"
+        ],
+        "color": "0xff258488",
+        "title": "Fazeker",
+        "des": "Fazaker: Your all-in-one Islamic companion. Get accurate prayer times, explore the Quran, and find peace in Azkar and Duas. With a user-friendly interface, it's your guide to a seamless and enriched spiritual journey."
+      },
+      {
+        "images": [
+          "https://firebasestorage.googleapis.com/v0/b/mohamed-abdelkhalek.appspot.com/o/projects%2Fasfarco%2F0.jpeg?alt=media&token=35769f9b-8145-4f43-8f2f-e748afc18e0c",
+          "https://firebasestorage.googleapis.com/v0/b/mohamed-abdelkhalek.appspot.com/o/projects%2Fasfarco%2F1.jpeg?alt=media&token=5efdfe78-346c-4b23-a72c-fac95dbd1b0b",
+          "https://firebasestorage.googleapis.com/v0/b/mohamed-abdelkhalek.appspot.com/o/projects%2Fasfarco%2F2.jpeg?alt=media&token=8d9657c1-4be8-459b-bd19-2eb3420a9ad0",
+          "https://firebasestorage.googleapis.com/v0/b/mohamed-abdelkhalek.appspot.com/o/projects%2Fasfarco%2F3.jpeg?alt=media&token=855c6450-8b6e-4b30-af8f-f5e100ee5c7e",
+          "https://firebasestorage.googleapis.com/v0/b/mohamed-abdelkhalek.appspot.com/o/projects%2Fasfarco%2F4.jpeg?alt=media&token=e3562e47-cd48-402b-a738-ad185b148d6e"
+        ],
+        "color": "0xFFE1561B",
+        "title": "Asfarco",
+        "des": "Asfarco, a specialized car rental program in the UAE, ensures a seamless and efficient rental experience. Tailored for diverse needs, it offers features for convenient, flexible, and reliable vehicle rentals across various purposes."
+      }
+    ]
+  }
+}

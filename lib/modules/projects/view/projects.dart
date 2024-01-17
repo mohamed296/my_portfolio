@@ -13,8 +13,12 @@ class ProjectsPage extends StatelessWidget {
     return BlocBuilder<ProjectsBloc, ProjectsState>(
       builder: (context, state) {
         if (state.states == ProjectsStates.loading) {
-          return const SizedBox(
-              width: 40, height: 40, child: CircularProgressIndicator());
+          return const Center(
+            child: SizedBox(
+                width: 40,
+                height: 40,
+                child: CircularProgressIndicator.adaptive()),
+          );
         }
         return SizedBox(
           child: Column(

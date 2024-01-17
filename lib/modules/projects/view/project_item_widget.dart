@@ -41,7 +41,7 @@ class ProjectItem extends StatelessWidget {
 
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(10),
-        image: DecorationImage(image: AssetImage(images!.first)),
+        image: DecorationImage(image: NetworkImage(images!.first)),
       ),
       child: ClipRRect(
         borderRadius: BorderRadius.circular(10),
@@ -78,9 +78,21 @@ class ProjectItem extends StatelessWidget {
                           ),
                           items: images!
                               .map(
-                                (e) => Image.asset(
+                                (e) => Image.network(
                                   e,
                                   width: i == 0 ? 150 : null,
+                                  loadingBuilder: (BuildContext context,
+                                      Widget child,
+                                      ImageChunkEvent? loadingProgress) {
+                                    if (loadingProgress == null) { 
+                                      return child;
+                                    } else {
+                                      return const Center(
+                                        child: CircularProgressIndicator
+                                            .adaptive(),
+                                      );
+                                    }
+                                  },
                                 ),
                               )
                               .toList())),

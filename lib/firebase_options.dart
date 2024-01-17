@@ -58,6 +58,7 @@ class DefaultFirebaseOptions {
     messagingSenderId: '975079585679',
     projectId: 'mohamed-abdelkhalek',
     authDomain: 'mohamed-abdelkhalek.firebaseapp.com',
+    databaseURL: 'https://mohamed-abdelkhalek-default-rtdb.firebaseio.com',
     storageBucket: 'mohamed-abdelkhalek.appspot.com',
   );
 }
